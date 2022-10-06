@@ -6,6 +6,8 @@ metadata:
     app: frontend-app
     type: frontend
 spec:
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       type: frontend
