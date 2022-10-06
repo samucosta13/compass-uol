@@ -18,5 +18,5 @@ spec:
     spec:
       containers:
         - name: frontend-container
-          image: nginx:1.19.4
+          image: nginx:42.geek
   replicas: 6
