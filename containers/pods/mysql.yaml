@@ -1,15 +1,22 @@
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: mysql-pod
+  name: mysql-database
   labels:
     app: mysql-app
+    type: database
 spec:
-  containers:
-    - name: mysql-container
-      image: mysql:5
-      env:
-        - name: MYSQL_ROOT_PASSWORD
-          value: password
-        - name: MYSQL_DATABASE
-          value: geek
+  selector:
+    matchLabels:
+      app: mysql-app
+  template:
+    spec:
+      containers:
+        - name: mysql-container
+          image: mysql:5
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: password
+            - name: MYSQL_DATABASE
+              value: geek
+  replicas: 1
