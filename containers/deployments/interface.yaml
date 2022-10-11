@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: interface
   labels:
-    app: frontend
-    type: frontend
+    app: interface-app
+    type: interface
 spec:
   selector:
     matchLabels:
-      type: frontend
+      type: interface
   template:
     metadata:
-      name: frontend
+      name: interface-pod
       labels:
-        app: frontend
-        type: frontend
+        app: interface-app
+        type: interface
     spec:
       containers:
-        - name: frontend
+        - name: interface-container
           image: nginx
   replicas: 1
