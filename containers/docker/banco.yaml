@@ -1,0 +1,7 @@
+services:
+  banco:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: senha
+      MYSQL_DATABASE: site
