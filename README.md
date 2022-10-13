@@ -1,5 +1,5 @@
-# compass-uol
- Implementações feitas durante o programa de bolsas da Compass.UOL, para fins de aprendizado. 
+# Estágio na Compass.uol
+ Minha jornada de aprendizado durante o programa de bolsas!
 
 ## Diretórios
  * __containers__: refere-se à trilha de Docker e Kubernetes
