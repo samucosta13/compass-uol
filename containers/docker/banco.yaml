@@ -1,7 +1,14 @@
 services:
   banco:
+    container_name: banco
     image: mysql:8
+    ports:
+      - "3600:3306"
     restart: always
+    volumes:
+      - type: volume
+        source: dados
+        target: /var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: senha
       MYSQL_DATABASE: site
