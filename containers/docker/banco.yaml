@@ -6,9 +6,9 @@ services:
       - "3600:3306"
     restart: always
     volumes:
-      - type: volume
-        source: dados
-        target: /var/lib/mysql
+      - mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: senha
       MYSQL_DATABASE: site
+volumes:
+  mysql:
