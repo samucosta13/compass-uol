@@ -1,5 +1,5 @@
 # Estágio na Compass.uol
- Minha jornada de aprendizado durante o programa de bolsas!
+ Uma parte da minha jornada de aprendizado durante o programa de bolsas!
 
 ## Diretórios
  * __containers__: refere-se à trilha de Docker e Kubernetes
