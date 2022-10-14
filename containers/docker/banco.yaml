@@ -1,6 +1,6 @@
 services:
   banco:
-    container_name: banco
+    container_name: banco2
     image: mysql:8
     ports:
       - "3600:3306"
