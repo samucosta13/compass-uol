@@ -9,7 +9,6 @@ services:
       - docker_mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: senha
-      MYSQL_DATABASE: site
 volumes:
   docker_mysql:
     external: true
