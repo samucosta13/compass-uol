@@ -6,7 +6,7 @@ services:
       - "3600:3306"
     restart: always
     volumes:
-      - mysql:/var/lib/mysql
+      - docker_mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: senha
       MYSQL_DATABASE: site
