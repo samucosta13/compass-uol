@@ -1,0 +1,13 @@
+services:
+  banco:
+    image: mysql:8
+    container_name: banqueiro
+    env_file: .env
+    restart: on-failure
+    ports:
+      - '1800:1306'
+    volumes:
+      - banqueiro:/var/lib/mysql
+volumes:
+  banqueiro:
+    name: banqueiro
