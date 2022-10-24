@@ -3,6 +3,7 @@ services:
     image: mysql:8
     container_name: banqueiro
     restart: always
-    env_file: .env
+    environment:
+      MYSQL_ROOT_PASSWORD: docker
     ports:
-      - '3600:3306'
+      - "3600:3306"
