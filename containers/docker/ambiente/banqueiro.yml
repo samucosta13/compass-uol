@@ -2,12 +2,7 @@ services:
   banco:
     image: mysql:8
     container_name: banqueiro
+    restart: always
     env_file: .env
-    restart: on-failure
     ports:
-      - '3307:3306'
-    volumes:
-      - banqueiro:/var/lib/mysql
-volumes:
-  banqueiro:
-    name: banqueiro
+      - '3600:3306'
