@@ -1,1 +1,1 @@
-* O diretório docker contém Dockerfiles e arquivos de definição Docker Compose feitos para praticar para a atividade de Docker, cuja versão oficial está no repositório https://github.com/samucosta13/compass-docker.
+* O diretório __docker/__ contém Dockerfiles e arquivos de definição Docker Compose feitos para praticar para a atividade de Docker, cuja versão oficial está no repositório https://github.com/samucosta13/compass-docker.
