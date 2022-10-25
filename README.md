@@ -3,5 +3,6 @@
 
 ## Diretórios
  * __containers__: refere-se à trilha de Docker e Kubernetes
+ * __dev-ops__: refere-se ao percurso do "DevOps - Mão na massa!", da Udemy
  * __aplicacao-geekuniversity__: aplicação feita no curso de Kubernetes da Geek University
  * __udemy-devops-mao-na-massa__: repositório do curso "DevOps - Mão na massa!" na Udemy
