@@ -1,5 +1,8 @@
 aplicacao-geekuniversity/
 udemy-devops-mao-na-massa/
+containers/docker/teste/
 dev-ops/teste/
 dev-ops/vagrant-lab/.vagrant
-containers/docker/teste/
+dev-ops/lab-ansible/control-node/.vagrant
+dev-ops/lab-ansible/app01/.vagrant
+dev-ops/lab-ansible/db01/.vagrant
