@@ -6,3 +6,4 @@ dev-ops/vagrant-lab/.vagrant
 dev-ops/lab-ansible/control-node/.vagrant
 dev-ops/lab-ansible/app01/.vagrant
 dev-ops/lab-ansible/db01/.vagrant
+dev-ops/lab-ansible/db01/.provision.sh
