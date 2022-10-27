@@ -3,8 +3,8 @@ udemy-devops-mao-na-massa/
 containers/docker/teste/
 dev-ops/teste/
 dev-ops/vagrant-lab/.vagrant
-dev-ops/lab-ansible/control-node/.vagrant
-dev-ops/lab-ansible/app01/.vagrant
-dev-ops/lab-ansible/db01/.vagrant
-dev-ops/lab-ansible/db01/.provision.sh
-dev-ops/lab-ansible/app01/.provision.sh
+dev-ops/ansible-lab/control-node/.vagrant
+dev-ops/ansible-lab/app01/.vagrant
+dev-ops/ansible-lab/db01/.vagrant
+dev-ops/ansible-lab/db01/.provision.sh
+dev-ops/ansible-lab/app01/.provision.sh
