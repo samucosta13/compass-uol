@@ -8,4 +8,4 @@ dev-ops/ansible-lab/app01/.vagrant/
 dev-ops/ansible-lab/db01/.vagrant/
 dev-ops/ansible-lab/db01/.provision.sh
 dev-ops/ansible-lab/app01/.provision.sh
-dev-ops/ansible-lab/control-node/playbooks/vars/main.yaml
+dev-ops/ansible-lab/control-node/playbooks/vars/main.yml
