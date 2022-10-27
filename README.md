@@ -11,5 +11,5 @@
 
 ### dev-ops
  * __vagrant-lab/__: laboratório para criação de VMs com Vagrant e VirtualBox
- * __lab-ansible/__: laboratório de uma aplicação com microsserviços em VMs 
-   * Ansible + Vagrant
+ * __ansible-lab/__: laboratório de uma aplicação com microsserviços em VMs 
+   * Ansible, Vagrant
