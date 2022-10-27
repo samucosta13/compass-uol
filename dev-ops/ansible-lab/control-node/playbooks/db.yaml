@@ -8,10 +8,10 @@
   vars_files: # variáveis de ambiente (via arquivo)
     - vars/main.yml
 
-  vars: # variáveis de ambiente (direto)
-    - dbname: "db01"
-    - dbusername: "root"
-    - dbpassword: "devopsmaonamassa"
+  #vars: # variáveis de ambiente (direto)
+    #- dbname: "db01"
+    #- dbusername: "root"
+    #- dbpassword: "devopsmaonamassa"
 
   tasks:
     - name: Configurar hosts do ansible-lab
