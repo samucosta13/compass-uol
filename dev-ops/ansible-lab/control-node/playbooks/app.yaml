@@ -25,7 +25,7 @@
         uid: 500
     - name: Instalação do Maven
       yum:
-        name: Maven
+        name: maven
         state: latest
     - name: Instalação do Java
       yum:
