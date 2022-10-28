@@ -46,7 +46,7 @@
     - name: Configurar arquivo de propriedades para camada de banco de dados
       template: # procura por padrão dentro de playbooks/templates
         src: application.properties # criar este arquivo
-        dest: /opt/notes/src/resources/application.properties
+        dest: /opt/notes/src/main/resources/application.properties
     - name: Gerar pacote de aplicação
       command: mvn -f /opt
       become_user: app
