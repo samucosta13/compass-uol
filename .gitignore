@@ -11,3 +11,4 @@ dev-ops/ansible-lab/app01/.provision.sh
 dev-ops/ansible-lab/control-node/playbooks/vars/main.yml
 dev-ops/ansible-lab/control-node/playbooks/vars/main-app.yml
 dev-ops/docker-lab/.vagrant/
+dev-ops/docker-lab/provision.sh
