@@ -23,10 +23,15 @@
         name: app
         comment: Usuário de aplicação
         uid: 500
-    - name: Instalação do Maven
-      yum:
-        name: maven
-        state: latest
+    - name: Donwload do maven 
+      get_url:
+        url: https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.1.0/apache-maven-3.1.0-bin.tar.gz
+        dest: /opt/apache-maven-3.1.0-bin.tar.gz
+    - name: Unzip do pacote maven
+      ansible.builtin.unarchive:
+        src: /opt/apache-maven-3.1.0-bin.tar.gz
+        dest: /opt/
+        remote_src: yes
     - name: Instalação do Java
       yum:
         name: java-1.8.0-openjdk
@@ -47,8 +52,8 @@
       template: # procura por padrão dentro de playbooks/templates
         src: application.properties # criar este arquivo
         dest: /opt/notes/src/main/resources/application.properties
-    - name: Gerar pacote de aplicação
-      command: mvn -f /opt
+    - name: Gerar pacote da aplicação
+      command: /opt/apache-maven-3.1.0/bin/mvn -f /opt/notes/pom.xml package
       become_user: app
     - name: Registrar versão atual do pacote
       shell:
