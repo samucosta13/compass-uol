@@ -1,4 +1,5 @@
 FROM maven:3.5-jdk-8 as buildstage
+RUN addgroup -S notes && adduser -S notes -G notes
 RUN mkdir /opt/note
 RUN chown -R notes:notes /opt/note
 WORKDIR /opt/note
