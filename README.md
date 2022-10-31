@@ -13,3 +13,6 @@
  * __vagrant-lab/__: laboratório para criação de VMs com Vagrant e VirtualBox
  * __ansible-lab/__: laboratório de uma aplicação com microsserviços em VMs 
    * Ansible, Vagrant
+ * __docker-lab/__: laboratório da VM com Docker containers
+   * Docker, Ansible, Vagrant
+   * Dockerfile, Multi-stage Dockerfile
