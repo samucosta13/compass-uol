@@ -2,7 +2,7 @@
 
 ## Instalação do Jenkins
 yum install -y epel-release
-yum install -y wget
+yum install -y git wget
 
 sudo wget --no-check-certificate -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
