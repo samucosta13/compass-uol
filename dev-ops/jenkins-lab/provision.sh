@@ -8,7 +8,8 @@ sudo wget --no-check-certificate -O /etc/yum.repos.d/jenkins.repo https://pkg.je
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 yum install -y java-11-openjdk
 yum install jenkins -y
-systemctl daemon-reload
+sudo systemctl daemon-reload
+sudo systemctl start jenkins
 
 ## Instalação do Docker e Docker Compose
 sudo yum install -y yum-utils
