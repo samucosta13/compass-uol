@@ -19,4 +19,5 @@ sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo systemctl daemon-reload
 sudo systemctl start docker
 sudo systemctl enable docker
+sudo gpasswd -a jenkins docker
 sudo systemctl restart docker
