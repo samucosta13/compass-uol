@@ -6,6 +6,7 @@ dev-ops/vagrant-lab/.vagrant/
 dev-ops/ansible-lab/control-node/.vagrant/
 dev-ops/ansible-lab/app01/.vagrant/
 dev-ops/ansible-lab/db01/.vagrant/
+dev-ops/jenkins-lab/.vagrant/
 dev-ops/ansible-lab/db01/.provision.sh
 dev-ops/ansible-lab/app01/.provision.sh
 dev-ops/ansible-lab/control-node/playbooks/vars/main.yml
