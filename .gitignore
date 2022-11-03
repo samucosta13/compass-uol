@@ -7,13 +7,13 @@ dev-ops/ansible-lab/control-node/.vagrant/
 dev-ops/ansible-lab/app01/.vagrant/
 dev-ops/ansible-lab/db01/.vagrant/
 dev-ops/jenkins-lab/.vagrant/
+dev-ops/k3s-lab/.vagrant/
+dev-ops/docker-lab/.vagrant/
+dev-ops/swarm-lab/.vagrant/
+dev-ops/sonarqube-lab/.vagrant/
 dev-ops/ansible-lab/db01/.provision.sh
 dev-ops/ansible-lab/app01/.provision.sh
 dev-ops/ansible-lab/control-node/playbooks/vars/main.yml
 dev-ops/ansible-lab/control-node/playbooks/vars/main-app.yml
-dev-ops/docker-lab/.vagrant/
 dev-ops/docker-lab/provision.sh
-dev-ops/swarm-lab/.vagrant/
-dev-ops/sonarqube-lab/.vagrant/
-dev-ops/jenkins-lab/.vagrant/
 dev-ops/jenkins-lab/redis-app/
