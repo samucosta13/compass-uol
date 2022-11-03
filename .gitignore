@@ -11,6 +11,7 @@ dev-ops/k3s-lab/.vagrant/
 dev-ops/docker-lab/.vagrant/
 dev-ops/swarm-lab/.vagrant/
 dev-ops/sonarqube-lab/.vagrant/
+dev-ops/prometheus-lab/.vagrant/
 dev-ops/ansible-lab/db01/.provision.sh
 dev-ops/ansible-lab/app01/.provision.sh
 dev-ops/ansible-lab/control-node/playbooks/vars/main.yml
