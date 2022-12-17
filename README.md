@@ -2,8 +2,10 @@
  Some part of my learning journey during this scholarship program.
 
 ## Directories
- * __containers__: refers to Docker and Kubernetes practice
- * __dev-ops__: refers to "DevOps - Mão na massa!" Udemy course
+ * __aws__: it contains some materials for AWS learning and practice
+ * __containers__: it refers to Docker and Kubernetes practice
+ * __dev-ops__: it refers to "DevOps - Mão na massa!" Udemy course
+ * __kubernetes__: it contains YAML files of projects made with Kubernetes and watching by Rancher
 
 ### containers
  * The __docker/__ directory contains Docker Compose definition files made to study before the Docker activity, whose oficial version is at this repository: https://github.com/samucosta13/compass-docker
