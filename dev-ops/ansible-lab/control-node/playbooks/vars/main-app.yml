@@ -1,0 +1,4 @@
+dbhost: "db01"
+dbname: "notes"
+dbusername: "notesapp"
+dbpassword: "dbpassword"
