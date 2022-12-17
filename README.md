@@ -6,8 +6,8 @@
  * __dev-ops__: refers to "DevOps - Mão na massa!" Udemy course
 
 ### containers
- * The __docker/__ directory contains Dockerfiles and Docker Compose definition files made to study before the Docker activity, whose oficial version is at this repository: https://github.com/samucosta13/compass-docker
- * The other directories contains scripts of projects with containers (Dockerfiles or YAML files used to build them)
+ * The __docker/__ directory contains Docker Compose definition files made to study before the Docker activity, whose oficial version is at this repository: https://github.com/samucosta13/compass-docker
+ * The other directories contains scripts of projects with containers (Dockerfiles or YAML files used to build them). They were made during the "Orquestração de Containers com Kubernetes" Geek University course, available on Udemy platform.
 
 ### dev-ops
  * __vagrant-lab/__: virtual machines with Vagrant and Virtual Box
