@@ -1,18 +1,16 @@
-# Estágio na Compass.uol
- Uma parte da minha jornada de aprendizado durante o programa de bolsas!
+# Internship at Compass.uol
+ Some part of my learning journey during this scholarship program.
 
-## Diretórios
- * __containers__: refere-se ao conteúdo da trilha de Docker e Kubernetes
- * __dev-ops__: refere-se ao curso "DevOps - Mão na massa!", da Udemy
+## Directories
+ * __containers__: refers to Docker and Kubernetes practice
+ * __dev-ops__: refers to "DevOps - Mão na massa!" Udemy course
 
 ### containers
- * O diretório __docker/__ contém Dockerfiles e arquivos de definição Docker Compose feitos para praticar para a atividade de Docker, cuja versão oficial está no repositório https://github.com/samucosta13/compass-docker.
- * Os demais diretórios contém arquivos de definição feitos durante as práticas do curso "Orquestração de containers com Kubernetes", da Geek University.
+ * The __docker/__ directory contains Dockerfiles and Docker Compose definition files made to study before the Docker activity, whose oficial version is at this repository: https://github.com/samucosta13/compass-docker
+ * The other directories contains scripts of projects with containers (Dockerfiles or YAML files used to build them)
 
 ### dev-ops
- * __vagrant-lab/__: laboratório para criação de VMs com Vagrant e VirtualBox
- * __ansible-lab/__: laboratório de uma aplicação com microsserviços em VMs 
-   * Ansible, Vagrant
- * __docker-lab/__: laboratório da VM com Docker containers
-   * Docker, Ansible, Vagrant
+ * __vagrant-lab/__: virtual machines with Vagrant and Virtual Box
+ * __ansible-lab/__: application on VMs using Ansible and Vagrant
+ * __docker-lab/__: VM with Docker containers, also using Ansible and Vagrant
    * Dockerfile, Multi-stage Dockerfile
