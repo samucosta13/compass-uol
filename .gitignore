@@ -1,7 +1,5 @@
 aplicacao-geekuniversity/
 udemy-devops-mao-na-massa/
-containers/docker/teste/
-dev-ops/teste/
 dev-ops/vagrant-lab/.vagrant/
 dev-ops/ansible-lab/control-node/.vagrant/
 dev-ops/ansible-lab/app01/.vagrant/
@@ -12,9 +10,3 @@ dev-ops/docker-lab/.vagrant/
 dev-ops/swarm-lab/.vagrant/
 dev-ops/sonarqube-lab/.vagrant/
 dev-ops/prometheus-lab/.vagrant/
-dev-ops/ansible-lab/db01/.provision.sh
-dev-ops/ansible-lab/app01/.provision.sh
-dev-ops/ansible-lab/control-node/playbooks/vars/main.yml
-dev-ops/ansible-lab/control-node/playbooks/vars/main-app.yml
-dev-ops/docker-lab/provision.sh
-dev-ops/jenkins-lab/redis-app/
